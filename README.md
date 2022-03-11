@@ -13,6 +13,8 @@ setx /M PATH "%PATH%;<your-new-path-to-TeXlinter-folder>"
 ## How to use the TeXlinter
 TeXlinter.exe "your LaTex document"
 # If you have your own rules
-TeXlinter.exe "your LaTex document" --rules=<your own rule .json or .yaml>
+TeXlinter.exe "your LaTex document" --rules <your own rule .json or .yaml>
+# If you want to see what have changed
+TeXlinter.exe "your LaTex document" --header
 # If you need a reminder
 TeXlinter.exe help
