@@ -18,3 +18,7 @@ TeXlinter.exe "your LaTex document" --rules <your own rule .json or .yaml>
 TeXlinter.exe "your LaTex document" --header
 # If you need a reminder
 TeXlinter.exe help
+
+## If you want to run a test and see what the linter changes
+# Run the following
+TeXlinter.exe --header "path to TeXlinter folder/test.tex"
