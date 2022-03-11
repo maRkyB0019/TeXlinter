@@ -8,7 +8,7 @@ git clone "https://github.com/maRkyB0019/TeXlinter.git"
 
 # If you want to access TeXlinter.exe from anywhere copy the following command
 # Start cmd as administrator
-setx /M PATH "%PATH%;"<your-new-path-to-TeXlinter-folder>""
+setx /M PATH "%PATH%;your-new-path-to-TeXlinter-folder"
 
 ## How to use the TeXlinter
 TeXlinter.exe "your LaTex document"
