@@ -1,7 +1,7 @@
 # Make sure you have python3 and git installed for Windows
 
 ## To install git
-Visit https://git-scm.com/download/win and download the newest version
+Visit https://git-scm.com/download/win and download the newest version and follow the magic wizard
 
 ## How to install TeXlinter Windows
 git clone "https://github.com/maRkyB0019/TeXlinter.git"
